@@ -1,4 +1,4 @@
-use context url-file("Bootstrap-Algebra-v1.8", "library.arr")
+use context url-file("https://raw.githubusercontent.com/jpolitz/pyret-url-demo/refs/heads/main/library.arr", "library.arr")
 
 print(github-url("butterfly.png"))
 
