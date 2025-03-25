@@ -1,5 +1,6 @@
 use context url-file("Bootstrap-Algebra-v1.8", "library.arr")
 
+print(github-url("butterfly.png"))
 
 IMG = image-url(github-url("butterfly.png"))
 

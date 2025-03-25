@@ -115,7 +115,7 @@ fun nth-root(n, r): num-expt(n, 1 / r) end
 
 GITHUB-BASE = "https://raw.githubusercontent.com/jpolitz/pyret-url-demo/refs/heads/main/"
 fun github-url(local-path):
-  image-url(GITHUB-BASE + local-path)
+  GITHUB-BASE + local-path
 end
 
 ROCKET = scale(1/2, image-url(github-url("rocket.png")))
