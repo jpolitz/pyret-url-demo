@@ -118,7 +118,7 @@ fun github-url(local-path):
   GITHUB-BASE + local-path
 end
 
-ROCKET = scale(1/2, image-url(github-url("rocket.png")))
+ROCKET = scale(2, image-url(github-url("rocket.png")))
 ROCKET-BG = image-url("https://www.BootstrapWorld.org/clipart/height.png")
 UNIVERSE-HEIGHT = 4.35e+26
 LOG-UNIVERSE-HEIGHT = 61.33738
