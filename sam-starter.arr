@@ -1,7 +1,7 @@
 use context url-file("Bootstrap-Algebra-v1.8", "library.arr")
 
 
-IMG = image-url("http://www.wescheme.org/images/teachpacks2012/butterfly.png")
+IMG = image-url(github-url("butterfly.png"))
 
 # is-safe-left :: Number -> Boolean
 # Is the character visible on the left side of the screen?
