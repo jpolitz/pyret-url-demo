@@ -113,8 +113,13 @@ fun nth-root(n, r): num-expt(n, 1 / r) end
 ################################################################
 ######################### ROCKET HEIGHT ########################
 
-ROCKET = scale(1/2, image-url("http://www.wescheme.org/images/teachpacks2012/rocket.png"))
-ROCKET-BG = image-url("http://www.BootstrapWorld.org/clipart/height.png")
+GITHUB-BASE = "https://raw.githubusercontent.com/jpolitz/pyret-url-demo/refs/heads/main/"
+fun github-url(local-path):
+  image-url(GITHUB-BASE + "/" + local-path)
+end
+
+ROCKET = scale(1/2, image-url(github-url("rocket.png")))
+ROCKET-BG = image-url("https://www.BootstrapWorld.org/clipart/height.png")
 UNIVERSE-HEIGHT = 4.35e+26
 LOG-UNIVERSE-HEIGHT = 61.33738
 UNIVERSE-ZERO-PX = 150
