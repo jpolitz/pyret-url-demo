@@ -1,4 +1,4 @@
-use context url-file("https://raw.githubusercontent.com/jpolitz/pyret-url-demo/refs/heads/main/library.arr", "library.arr")
+use context url-file("https://raw.githubusercontent.com/jpolitz/pyret-url-demo/refs/heads/main/", "library.arr")
 
 print(github-url("butterfly.png"))
 
