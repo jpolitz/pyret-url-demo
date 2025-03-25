@@ -695,7 +695,7 @@ fun spacing(): random(200) end
 _target-increment_ = 20
 _danger-increment_ = -50
 LOSS-SCORE = 0
-GAMEOVER_IMG = image-url("http://www.wescheme.org/images/teachpacks2012/gameover.png")
+GAMEOVER_IMG = image-url(github-url("gameover.png"))
 
 var _score_    = 0
 var _player-x_ = 0
@@ -1193,8 +1193,7 @@ _img-list = [list: _tri, _cir, _sq, _star, _ellipse]
 ################################################################
 ######################### SURFACE AREA ########################
 
-prism = 
-  image-url("https://code.pyret.org/shared-image-contents?sharedImageId=1Ckagp7bnDSY4fwRdUC-UIDmZuVQderOG")
+prism = image-url(github-url("prism.png"))
 
 ########################################################
 # how much padding to put around each image (in px)
